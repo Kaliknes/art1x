@@ -163,7 +163,7 @@ descomentar .... BLE_CRYPTDISK=y
 :wq
 
 grub-install /dev/nvme0n1 (for LEGACY BIOS)
-grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub   (for UEFI systems)
+grub-install --target=x86_64-efi --efi-directory=/boot/ --bootloader-id=GRUB  (for UEFI systems)
 grub-mkconfig -o /boot/grub/grub.cfg
 
 exit                           <- exit chroot environment
