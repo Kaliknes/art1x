@@ -53,12 +53,10 @@ d
 n (crear partición boot)
 *enter*
 *enter*
-*enter*
 +1G (Last sector)
 
 
 n (crear partición boot)
-*enter*
 *enter*
 *enter*
 *enter*
@@ -89,8 +87,9 @@ mkfs.btrfs /dev/mapper/Alpha
 ## Mount Partitions
 ```
  mkdir /mnt/boot
+ mount /dev/mapper/Alpha /mnt (importante el orden)
  mount /dev/nvme0n1p1 /mnt/boot (UEFI y BIOS)
- mount /dev/mapper/Alpha /mnt
+ 
 ```
 
 ## Install Packages
