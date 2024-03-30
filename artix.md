@@ -141,7 +141,7 @@ useradd -mG wheel user
 passwd user
 contraseña secreta de user
 
-EDITOR=vim visudo (creo que larbs.sh lo hace solo)
+EDITOR=vim visudo
 uncomment %wheel ALL (...): ALL
 :wq
 
