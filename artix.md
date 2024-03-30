@@ -23,7 +23,7 @@ Luego
 $ loadkeys la-latin1
 ```
 
-## Wifi? (paso no testeado)
+## Wifi
 ```
 connmanctl
 
@@ -35,7 +35,7 @@ services
 
 agent on
 
-connect (id obtained from services)
+connect (id obtained from services, el largo)
 
 quit
 
