@@ -88,7 +88,7 @@ mkfs.btrfs /dev/mapper/Alpha
 ```
  mkdir /mnt/boot
  mount /dev/mapper/Alpha /mnt (importante el orden)
- mount /dev/nvme0n1p1 /mnt/boot (UEFI y BIOS)
+ mount /dev/nvme0n1p1 /mnt/boot/ (UEFI y BIOS)
  
 ```
 
